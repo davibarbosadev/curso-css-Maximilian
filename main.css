@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin: 0;
 }
 
@@ -23,11 +23,10 @@ body {
     font-size: 22px;
     font-weight: bold;
     text-decoration: none;
-
 }
 
 .nav {
-    width: calc( 100% - 75px);
+    width: calc(100% - 75px);
     display: inline-block;
     text-align: right;
     vertical-align: middle;
@@ -43,6 +42,7 @@ body {
     display: inline-block;
     margin: 0 16px;
 }
+
 .nav__link {
     text-decoration: none;
     color: #0e4f1f;
@@ -73,5 +73,5 @@ body {
 
 #product-overview h1 {
     color: white;
-    font-family: 'Anton', sans-serif;
+    font-family: "Anton", sans-serif;
 }
