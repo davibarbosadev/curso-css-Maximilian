@@ -89,7 +89,6 @@ a:any-link {
 }
 
 #plans {
-    /* background-color: red; */
     padding-bottom: 50px;
 }
 
@@ -98,7 +97,7 @@ a:any-link {
     text-align: center;
 }
 
-.plan-card {
+.plan {
     width: 30%;
     display: inline-block;
     background-color: #d5ffdc;
@@ -107,16 +106,26 @@ a:any-link {
     vertical-align: middle;
 }
 
-.plan-card--highlighted {
+.plan--highlighted {
     background-color: #19b84c;
     color: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
-.plan-card__badge {
+.plan__badge {
     background-color: #fff;
     color: #19b84c;
     padding: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
+}
+
+.plan__features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan__feature {
+    margin-bottom: 8px;
 }
