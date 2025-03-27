@@ -4,6 +4,10 @@
     /* background-color: lightblue; */
 }
 
+.plans .section-title {
+    color: #064E3B;
+}
+
 .plan {
     width: 30%;
     display: inline-block;
