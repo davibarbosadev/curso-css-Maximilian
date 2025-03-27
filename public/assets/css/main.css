@@ -1,8 +1,10 @@
 @import "reset.css";
+@import "global.css";
 @import "header.css";
 @import "navbar.css";
 @import "section-product-overview.css";
 @import "section-plans.css";
+@import "section-stats.css";
 
 
 

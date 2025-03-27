@@ -1,5 +1,7 @@
-#plans {
-    padding-bottom: 50px;
+.plans {
+    text-align: center;
+    padding: 24px 0 80px;
+    /* background-color: lightblue; */
 }
 
 .plan {
