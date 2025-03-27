@@ -1,0 +1,16 @@
+.header {
+    width: 100%;
+    padding: 8px 16px;
+    background:#059669;
+}
+
+.brand {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.brand__link {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+}

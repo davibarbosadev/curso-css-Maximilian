@@ -1,0 +1,91 @@
+#plans {
+    padding-bottom: 50px;
+}
+
+.plan {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    padding: 16px;
+    vertical-align: middle;
+} 
+
+.plan:not(.plan--highlighted) {
+    background-color: #A7F3D0;
+    color: #064E3B;
+
+}
+
+.plan--highlighted {
+    background-color: #059669;
+    color: #fff;
+    box-shadow: 0 0 4px rgba(6, 78, 59, 0.5);
+}
+
+.plan__badge {
+    background-color: #fff;
+    color: #059669;
+    padding: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+.plan__title {
+
+}
+
+.plan__price {
+  
+}
+
+.plan__description {
+
+}
+
+.plan__features {
+    list-style: none;
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 0;
+}
+
+.plan__feature {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.plan__cta {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    transition: all .2s ease-out;
+}
+
+.plan__cta:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.plan:not(.plan--highlighted) .plan__cta {
+    font-weight: 600;
+    color: #064E3B;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.plan:not(.plan--highlighted) .plan__cta:hover {
+    border-color: #064E3B;
+}
+
+.plan--highlighted .plan__cta {
+    color: #fff;
+    font-weight: 500;
+    background-color: #064E3B;
+    border: 1px solid #064E3B;
+}
+
+.plan--highlighted .plan__cta:hover {
+    border: 1px solid #fff;
+}
