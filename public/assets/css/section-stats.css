@@ -1,6 +1,6 @@
 .stats {
     color: #D1FAE5;
-    margin-bottom: 80px;
+    margin-bottom: 48px;
     padding: 24px 0 48px;
     background-color: #064e3b;
 }
@@ -27,7 +27,6 @@
 
 .stats__icon {
     width: 40px;
-    stroke: #064e3b;
 }
 
 .stats__description {
